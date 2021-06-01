@@ -1,0 +1,114 @@
+.navHome{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 0 !important;
+    padding: 15px;
+    width: max-content;
+    list-style: none;
+    margin: 0;
+    align-items: center;
+    border-right:white 3px solid ;
+    float: none;
+}
+
+.navHome li {
+    padding:3%;
+    width:100%;
+    display:block;
+    text-align:center;
+    position: relative;
+
+
+}
+.navHome li:hover{
+    background-color:rgba(243, 236, 236, 0.274);
+}
+
+.navHome a {
+    color: white;
+    display: block;
+    text-decoration: none;
+    padding: .5em 1em;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.navHome img {
+    border-radius: 60%;
+    width: 80%;
+    margin-block-end: 25px;
+}
+.container{
+    display: flex;
+    width:100%;
+    flex-direction:row;
+    align-items: stretch;
+
+
+}
+@media screen and (min-width: 480px) {
+    .optionsClass{
+        height:100%;
+    
+    }
+  }
+
+.dropbtn {
+    padding: 3%;
+    font-size: 16px;
+    border: none;
+    background:transparent;
+    color:white;
+    width:100%;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    align-items: center;
+
+}
+
+.dropdown-content {
+    display: none;
+    min-width: 160px;
+    /*box-shadow: 0px 8px 16px 0px rgb(255, 255, 255);*/
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: rgb(255, 255, 255);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-content a:hover{
+    background-color:rgba(51, 21, 21, 0.24);
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.visualClass{
+    width: 100%;
+}
+.registroDispositivo{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+.registroDispositivo h1{
+    border: 4px double rgb(255, 255, 255);
+    background-color:rgba(0, 0, 0, 0.658);
+    color: white;
+    border-collapse: white;
+    width: 90%;
+    margin: 15px;
+    padding: 10px;
+    
+}
+.registroDispositivo div {
+    margin:10px;
+    padding: 10px;
+    max-width: 400px;
+}
+.boxRegisterItems{
+    width: 60%;
+}

@@ -1,0 +1,57 @@
+.boxRegister{
+    display: flex;
+    flex-direction :column;
+    justify-content:center;
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+    border-width: 3px;
+    border-radius: 15px;
+    background:local;
+    background-color: rgb(255, 255, 255);
+
+    width: 400px;
+    padding:40px;
+
+}
+.boxRegisterItems{
+    display:flex;
+    justify-content:center;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: none;
+    font-family:'calibri';
+    font-size:18px;
+}
+.fecha{
+    display:flex;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: none;
+    justify-content:space-between;
+    padding:10px;
+    font-family:'calibri';
+    font-size:18px;
+}
+.botonRegister{
+    display: flex;
+    padding:12px;
+    background: dodgerblue;
+    border-width: 1px;
+    border-radius: 6px;
+    font-size: 16px;
+    display: inline-block;
+
+}
+.botonRegister:link{
+    text-decoration:none;
+    background:violet;
+}
+.botonRegister:hover{
+    font-style: 20px;
+}
+.boxfirstRegister{
+    display:flex;
+    align-items: center;
+    flex-direction:column;
+}

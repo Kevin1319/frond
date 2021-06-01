@@ -1,0 +1,84 @@
+body { 
+    margin-top: 15px;
+    background: url(./Imagen2.jpg) no-repeat center top;
+    background-size: cover;
+    display: flex;
+    flex-direction :column;
+    align-items: center;
+    
+}
+
+.login{
+    margin-top: 20px;
+    display: flex;
+    background-color: aliceblue;
+    border-style: solid;
+    border-width: 1px;
+    padding: auto;
+    border-color: black;
+    border-radius: 4px;
+    height: 35px;
+    width: 400px;
+    text-align: center;
+    font-style: italic;
+    font-size: 100%;
+    align-items: center;
+    justify-content:center;
+    
+}
+.etiquetas{
+    margin-top: 30px;
+    font-style: solid;
+    font-size: 110%;
+}
+.ayudas{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    height: 25px;
+    width: 400px;
+}
+.boxLogin{
+    display: flex;
+    flex-direction :column;
+    align-items: center;
+    justify-content:center;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 150%;
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+    border-width: 3px;
+    border-radius: 15px;
+    background:local;
+    background-color: rgb(255, 255, 255);
+    height: 500px;
+    width: 600px;
+}
+.boton{
+    margin-top: 30px;
+    width:150px;
+    border-radius: 6px;
+    padding: 8px 20px;
+    margin-top: 180;
+    background-color:rgb(255, 255, 255);
+    background: rgb(26, 58, 197); /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(270deg,rgb(0, 47, 88), rgb(255, 255, 255)); /* For Safari 5.1 to 6.0 */
+    color:black;
+    font-size:100%;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+    
+}
+.red{
+    display:flex;
+    font-style: italic;
+    font-size:80%;
+}
+.loginFirst{
+    display:flex;
+    align-items: center;
+    flex-direction:column;
+}
